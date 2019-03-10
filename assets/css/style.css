@@ -1,6 +1,8 @@
 section {
+    clear: both;
+    display: block;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     background-color: white;
     border-color: #20c997;
     border-top-style: outset;
@@ -48,10 +50,12 @@ p {
 }
 
 footer {
+    clear: both;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    display: block;
     background-color: #F3969A;
     border-top: #20c997 solid 5px;
     line-height: 15px;
