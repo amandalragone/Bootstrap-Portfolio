@@ -9,6 +9,7 @@ section {
     border-right-style: inset;
     border-width: 2px;
     line-height: 150%;
+    overflow: auto;
 }
 
 h1 {
@@ -20,9 +21,6 @@ h1 {
 }
 
 #my_picture {
-    width: 400px;
-    height: 400px;
-    float: left;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -30,7 +28,6 @@ h1 {
 
 p {
     text-align: justify;
-    float: left;
 }
 
 footer {
