@@ -1,12 +1,42 @@
-.portfolio_images {
-    position: relative;
-    text-align: center;
-    color: white;
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-color: #20c997;
+    border-top-style: outset;
+    border-left-style: outset;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border-width: 2px;
+    line-height: 150%;
 }
 
-.image_name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1 {
+    color: #888;
+    border-bottom: #20c997 inset 2px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#my_picture {
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    float: left;
+}
+
+footer {
+    position: sticky;
+    background-color: #F3969A;
+    border-top: #20c997 solid 5px;
+    line-height: 15px;
+    text-align: center;
 }
