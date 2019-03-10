@@ -18,6 +18,7 @@ h1 {
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
+    text-align: center;
 }
 
 #my_picture, form {
@@ -28,6 +29,22 @@ h1 {
 
 p {
     text-align: justify;
+}
+
+.image_portfolio {
+    position: absolute;
+}
+
+.picture_name {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: #888;
+    background-color: white;
+    line-height: 150%;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 footer {
